@@ -20,3 +20,9 @@ Les fichiers sont rangés simplement ; ce sont les tableaux de `tableaux/` qui r
 - T1 et T2 sont parallèles (même item dans chaque variété) ; T4 ne l'est pas (description libre, on transcrit).
 - Les items T2-001 à T2-050 sont réservés au test ; jamais de texte WAXAL ni biblique dans le test.
 - Chaque audio a sa ligne dans `enregistrements.csv`, chaque locuteur dans `locuteurs.csv`.
+
+## Références de Serva pour T1 (`tableaux/references/`)
+- `serva_T1_large.csv` : les 207 mots × les 60 parlers de Serva & Pasquini (2020), une colonne par parler, rangés de A à Z.
+- `serva_T1_long.csv` : la même chose en une ligne par mot et par parler (12 420 lignes), avec la variété, la localité, le groupe (A à D, calculé par FITENY sur la matrice de distances), la distance au merina et `identique_merina` (oui/non). Pratique pour filtrer dans un tableur.
+- Source : Serva, M. & Pasquini, M. (2020). Dialects of Madagascar. PLoS ONE 15(10): e0240170. Licence CC BY 4.0, citation obligatoire.
+- Ce sont des **références publiées**, pas nos données : les colonnes `forme_<variété>_retenue` de `items_T1.csv` ne se remplissent qu'avec ce que disent **nos** locuteurs.
