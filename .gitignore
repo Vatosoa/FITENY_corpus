@@ -1,0 +1,11 @@
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.webm
+*.jpg
+*.jpeg
+*.png
+*.eaf
+0_admin/
+_temp/
